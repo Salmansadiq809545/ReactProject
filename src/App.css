@@ -1,0 +1,263 @@
+.Nav{
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111;
+  width: 100%;
+ z-index: 100;
+  box-shadow: 0px 2px 20px 5px;
+  margin-left: auto;
+ 
+}
+html{
+  scroll-behavior: smooth;
+}
+h1{
+ text-align: center;
+ margin-bottom: 10px;
+  color: #f9f9f9;
+}
+.Navbar
+{
+  background-color: #111;
+
+  padding: 10px;
+
+  
+}
+ .Navbar a
+{
+  color: #f9f9f9;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+font-variant: small-caps;
+
+}
+.MainContent
+{
+  background-image: url('/src/Project/Images/1.jpg');
+  width: 100%;
+  height: 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+}
+
+.brand > img
+{
+width: 200px;
+height: 100px;
+padding: 2px;
+margin-left: 5px;
+object-fit: contain;
+}
+.head{
+  
+  padding: 15px;
+  margin-right: 70px;
+  margin-top: auto;
+  text-transform: uppercase;
+ 
+}
+.head  a{
+ 
+  text-decoration: none;
+margin-right: 1rem;
+  letter-spacing: 0.10em;
+  font-size: 22px;
+  font-weight: 400;
+ position: relative;
+  color: #f9f9f9;
+}
+
+.head a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: -6;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  
+}
+.head a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+body{
+  font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+@media only screen and (max-width: 600px)
+{
+  .head 
+  {
+    width: 100%;
+   
+
+  }
+}
+
+@media only screen and (max-width: 600px)
+{
+  .navbar a
+  {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+   border-style: none;
+   
+   
+  }
+}
+
+@media only screen and (max-width: 700px)
+{
+  .brand img
+  {
+    /* width: 70px; */
+    display: none;
+ 
+  }
+}
+@media only screen and (max-width:600px)
+{
+  .Heading 
+  {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width:600px) 
+{
+  .Heading  .btn
+  {
+    width: 100%;
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width:800px) 
+{
+  .Heading  .btn
+  {
+    width: 100%;
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+}
+
+.LoginForm
+{
+  margin: 0;
+  position: absolute;
+  width:40%;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+
+}
+
+.loginback{
+  background: url('./Project/Images/1.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: #fff;
+}
+.signupback{
+  background: url('./Project/Images/1.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: #fff;
+}
+.signup{
+  margin: 0;
+  position: absolute;
+  width:40%;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+.Heading
+{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+letter-spacing: 2px;
+line-height: 1.08;
+text-align: center;
+}
+.head2  input
+{
+  width: 100%;
+  
+  padding: 10px ;
+}
+.head2 > .btn
+{
+  margin-left: 5px;
+  height: 45px;
+  width: 40%;
+}
+.head2
+{
+  display: flex;
+  width: 100%;
+  align-items: center;
+ justify-content: center;
+}
+.HindiMovies h1{
+  margin-top: 15px;
+  font-size: 35px;
+  background-color: #111;
+  height: 50px;
+  font-weight: 700;
+  font-family: Copperplate Gothic Light;
+  align-content: space-between;
+}
+
+.HindiMovies iframe{
+  border: 2px solid #f9f9f9;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+#nav{
+  margin-right: 5rem;
+
+}
+
+
+#title
+{
+  display: flex;
+
+}
+@media only screen and (max-width:800px) 
+{
+  #title
+{
+  margin-top: 10px;
+  display: block;
+
+}
+}
+
+#sbtn{
+  width: 100%;
+  font-weight: bold;
+  letter-spacing: 2px;
+ 
+}
